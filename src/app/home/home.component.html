@@ -1,1 +1,219 @@
-<p>home works!</p>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Home</title>
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"
+          ><img
+            style="width: 50px; height: 50px;"
+            src="https://img.icons8.com/color/452/c-programming.png"
+        /></a>
+        <div class="nav-links" id="navLink">
+          <i
+            class="fa fa-times"
+            onclick='document.getElementById("navLink").style.right = "-400px"'
+          ></i>
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">SIGN UP</a></li>
+            <li><a href="">SIGN IN</a></li>
+          </ul>
+        </div>
+        <i
+          class="fa fa-bars"
+          onclick='document.getElementById("navLink").style.right = "0"'
+        ></i>
+      </nav>
+      <div class="text-box">
+        <h1>It's Time To Start your Career</h1>
+        <p>
+          the best way to create or to get feedback on your resume and kickstart
+          your career
+        </p>
+        <a (click)="move('user/athonticat')" class="hero-btn"
+          >Upload your Resume Here</a
+        >
+      </div>
+    </section>
+    <section class="course">
+      <h1>Our offers</h1>
+      <p>Here's you can pick with what we can help boost you career</p>
+      <div class="row">
+        <div class="course-col">
+          <h3>Bronze pack</h3>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book.
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Silver pack</h3>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book.
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Gold pack</h3>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="company">
+      <h1>Here's our Company</h1>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+      <div class="row">
+        <div class="comapny-col">
+          <img
+            src="https://images.unsplash.com/photo-1508385082359-f38ae991e8f2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8YnVzaW5lc3N8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80"
+          />
+          <div class="layer">
+            <h3>Tunis</h3>
+          </div>
+        </div>
+        <div class="comapny-col">
+          <img
+            src="https://images.unsplash.com/photo-1508385082359-f38ae991e8f2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8YnVzaW5lc3N8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80"
+          />
+          <div class="layer">
+            <h3>Tunis</h3>
+          </div>
+        </div>
+        <div class="comapny-col">
+          <img
+            src="https://images.unsplash.com/photo-1508385082359-f38ae991e8f2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8YnVzaW5lc3N8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80"
+          />
+          <div class="layer">
+            <h3>Tunis</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="facility">
+      <h1>Here's our Facility</h1>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+      <div class="row">
+        <div class="facility-col">
+          <img
+            src="https://www.facilitiesnet.com/resources/editorial/2016/a17006.jpg"
+          />
+          <h3>Librery</h3>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+          </p>
+        </div>
+        <div class="facility-col">
+          <img
+            src="https://www.facilitiesnet.com/resources/editorial/2018/17475-EducationalFacilities.jpg"
+          />
+          <h3>Meeting Room</h3>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+          </p>
+        </div>
+        <div class="facility-col">
+          <img
+            src="https://www.facilitiesnet.com/resources/editorial/2016/a17006.jpg"
+          />
+          <h3>Librery</h3>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="testimonials">
+      <h1>What our client say about us</h1>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+      <div class="row">
+        <div class="testimonials-col">
+          <img src="https://avatars.githubusercontent.com/u/66827428?v=4" />
+          <div>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </p>
+            <h3>
+              Halim Boussada
+            </h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+        </div>
+        <div class="testimonials-col">
+          <img
+            src="https://www.riyeda.tn/wp-content/uploads/2021/02/samy-ben.png"
+          />
+          <div>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </p>
+            <h3>
+              Samy Ben Chaalia
+            </h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="cta">
+      <h1>you can contact us from any place of the world</h1>
+      <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, <br />
+        when an unknown printer took a galley of type and scrambled it to make a
+        type specimen book.
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>Made by Halim Boussada <i class="fa fa-facebook"></i></p>
+    </section>
+
+    <script>
+      function showmenu() {
+        document.getElementById("navLink").style.right = "0";
+      }
+      function hidemenu() {
+        document.getElementById("navLink").style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
